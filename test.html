@@ -25,7 +25,7 @@
 				<div class="panel-body pad">
 					<h3>Contact form</h3>
 					<hr>
-					<form action="register.php" method="head" class="form form-horizontal ">
+					<form action="register.php" method="post" class="form form-horizontal ">
 						<div class="form-group">
 							<label for="" class="control-label col-sm-3">Your Name*:</label>
 							<div class="col-sm-9">
@@ -82,20 +82,20 @@
 						<div class="form-group">
 							<label for="">Do you like Pizza?</label>
 							<br>
-							<input type="radio" name="test3" value="0"> Yes
+							<input type="radio" name="test3" value="yes"> Yes
 							<br>
-							<input type="radio" name="test3" value="1"> No
+							<input type="radio" name="test3" value="no"> No
 							<br>
-							<input type="radio" name="test3" value="2"> Maybe
+							<input type="radio" name="test3" value="maybe"> Maybe
 							<br>
-							<input type="radio" name="test3" value="3"> Never Tried
+							<input type="radio" name="test3" value="never_tried"> Never Tried
 						</div>
 						<br>
 						<br>
 
 						<h4><strong>CheckBox</strong></h4>
 						<div class="col-md-12">
-							<input type="checkbox" name="vehicle" value="1"> Check this if you like our service 
+							<input type="checkbox" name="vehicle" value="liked"> Check this if you like our service 
 						</div>
 						
 						<br>
@@ -113,11 +113,11 @@
 						<div class="form-group">
 							<h4>I Like</h4>
 							<select name="name" id="" class="form-control" multiple>
-								<option value="0">mushroom</option>
-								<option value="1">green peppers</option>
-								<option value="2">onions</option>
-								<option value="3">tomatoes</option>
-								<option value="4">olives</option>
+								<option value="mushroom">mushroom</option>
+								<option value="green peppers">green peppers</option>
+								<option value="onions">onions</option>
+								<option value="tomatoes">tomatoes</option>
+								<option value="olives">olives</option>
 							</select>
 						</div>
 
@@ -125,11 +125,11 @@
 						<div class="form-group">
 							<h4>Menu</h4>
 							<select name="color" id="" class="form-control">
-								<option value="0">red</option>
-								<option value="1">green</option>
-								<option value="2">blue</option>
-								<option value="2">light red</option>
-								<option value="2">light green</option>
+								<option value="red">red</option>
+								<option value="green">green</option>
+								<option value="blue">blue</option>
+								<option value="light-red">light red</option>
+								<option value="light-green">light green</option>
 							</select>
 						</div>
 
