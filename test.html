@@ -11,65 +11,138 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/main.css">
 </head>
-<style>
-	.pad{
-		padding:50px 50px;
-	}
-	.mid{
-		margin:0 auto;
-		display: block;
-	}
-	input[type="checkbox"]{
-		display: inline;    
-	}
-</style>
+
 <body>
 <br>
-<br>
-<br>
+
 <div class="container">
 	<div class="row">
+		<h1 align="center"><strong>HTML form exercise</strong></h1>
 		<div class="col-md-6 col-sm-offset-3">
 			<div class="panel panel-default mid">
-				<div class="panel-heading">Form</div>
 				<div class="panel-body pad">
-					<fieldset>
-						<legend>Form</legend>
-						<form action="" method="head" class="form form-horizontal ">
-							<div class="form-group">
-								<label for="">Text field</label>
-								<input type="text" class="form-control">
+					<h3>Contact form</h3>
+					<hr>
+					<form action="register.php" method="head" class="form form-horizontal ">
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Your Name*:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" name="username" required="">
 							</div>
-							<div class="form-group">
-								<label for="">Textarea</label>
-								<textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
-							</div>
-							<div class="">
-								  <input type="checkbox" name="vehicle" value="Bike">I have a bike 
+						</div>
 
-								  <input type="checkbox" name="vehicle" value="car">I have a car 
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Email*:</label>
+							<div class="col-sm-9">
+								<input type="email" name="email" class="form-control" required="">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Phone Number:</label>
+							<div class="col-sm-9">
+								<input type="text" name="phone" maxlength="10" class="form-control">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Website*:</label>
+							<div class="col-sm-9">
+								<input type="url" name="website" value="http://" class="form-control" required="">
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="" class="col-sm-3">Comments*</label>
+							<div class="col-sm-9">
+								<textarea name="" id="" cols="30" name="comments" rows="10" class="form-control"></textarea>
+							</div>
+						</div>
 
+						<h4><strong>Text field</strong></h4>
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Your Name:</label>
+							<div class="col-sm-9">
+								<input type="text" name="name" class="form-control" required="">
 							</div>
-							<div class="form-group">
-								<label for="">select</label>
-								<select name="name" id="" class="form-control">
-									<option value="">--select--</option>
-									<option value="1">op1</option>
-									<option value="2">op2</option>
-								</select>
+						</div>
+
+						<h4><strong>Password</strong></h4>
+						<div class="form-group">
+							<label for="" class="control-label col-sm-3">Password:</label>
+							<div class="col-sm-9">
+								<input type="password" name="password" class="form-control" required="">
 							</div>
-							<div class="form-group">
-								<label for="">Radio</label>
-								<input type="radio" name="test3" value="1"> Test
-								<input type="radio" name="test3" value="2"> Value2
+						</div>
+						<br><br>
+
+						<h4><strong>Radio Buttons</strong></h4>
+						<div class="form-group">
+							<label for="">Do you like Pizza?</label>
+							<br>
+							<input type="radio" name="test3" value="0"> Yes
+							<br>
+							<input type="radio" name="test3" value="1"> No
+							<br>
+							<input type="radio" name="test3" value="2"> Maybe
+							<br>
+							<input type="radio" name="test3" value="3"> Never Tried
+						</div>
+						<br>
+						<br>
+
+						<h4><strong>CheckBox</strong></h4>
+						<div class="col-md-12">
+							<input type="checkbox" name="vehicle" value="1"> Check this if you like our service 
+						</div>
+						
+						<br>
+						<br>
+						
+						<h4><strong>Text Area</strong></h4>
+						<div class="form-group">
+							<label for="" class="col-sm-3">Anything you would like to say?</label>
+							<div class="col-sm-9">
+								<textarea name="" id="" cols="30" name="comment_two" rows="10" class="form-control"></textarea>
 							</div>
-							<div class="form-group">
-								<input type="submit" class="btn btn-primary" value="Submit">
-								<input type="reset" class="btn btn-default" value="Reset">
-							</div>
-						</form>
-					</fieldset>
+						</div>
+
+
+						<div class="form-group">
+							<h4>I Like</h4>
+							<select name="name" id="" class="form-control" multiple>
+								<option value="0">mushroom</option>
+								<option value="1">green peppers</option>
+								<option value="2">onions</option>
+								<option value="3">tomatoes</option>
+								<option value="4">olives</option>
+							</select>
+						</div>
+
+
+						<div class="form-group">
+							<h4>Menu</h4>
+							<select name="color" id="" class="form-control">
+								<option value="0">red</option>
+								<option value="1">green</option>
+								<option value="2">blue</option>
+								<option value="2">light red</option>
+								<option value="2">light green</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<h4>Attach file</h4>
+							<input type="file" name="file" class="form-control">
+						</div>
+						
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary" value="Submit">
+							<input type="reset" class="btn btn-default" value="Reset">
+						</div>
+					</form>
 				</div>	
 			</div>
 		</div>
