@@ -2,156 +2,91 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Html -Exercise</title>
-
+	<title>Html-excercise</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="This is html exercise.">
 	<meta name="keywords" content="HTML, Exercise">
 	<meta name="author" content="Abhishek kanojia">
-
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
-<br>
 
-<div class="container">
-	<div class="row">
-		<h1 align="center"><strong>HTML form exercise</strong></h1>
-		<div class="col-md-6 col-sm-offset-3">
-			<div class="panel panel-default">
-				<div class="panel-body pad">
-					<h3>Contact form</h3>
-					<hr>
-					<form action="register.php" method="post" class="form form-horizontal ">
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Your Name*:</label>
-							<div class="col-sm-9">
-								<input type="text" class="form-control" name="username" required="">
-							</div>
-						</div>
+  <h1 align="center"><strong>HTML form exercise</strong></h1>
 
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Email*:</label>
-							<div class="col-sm-9">
-								<input type="email" name="email" class="form-control" required="">
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Phone Number:</label>
-							<div class="col-sm-9">
-								<input type="text" name="phone" maxlength="10" class="form-control">
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Website*:</label>
-							<div class="col-sm-9">
-								<input type="url" name="website" value="http://" class="form-control" required="">
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label for="" class="col-sm-3">Comments*</label>
-							<div class="col-sm-9">
-								<textarea name="comment" id="" cols="30" name="comments" rows="10" class="form-control"></textarea>
-							</div>
-						</div>
+	<form action="register.php">
+		<fieldset>
+			<legend><h3>Contact form</h3></legend>
+		  
+		  Your Name*: <input type="text" class="form-control" name="username" required=""><br>
+			
+			Email*:  <input type="email" name="email" class="form-control" required=""><br>
+			
+			Phone Number: <input type="text" name="phone" maxlength="10" class="form-control"><br>
 
-						<h4><strong>Text field</strong></h4>
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Your Name:</label>
-							<div class="col-sm-9">
-								<input type="text" name="name" class="form-control" required="">
-							</div>
-						</div>
+			Website: <input type="url" name="website" value="http://" class="form-control" required=""><br>
+			Comments*: <br>
 
-						<h4><strong>Password</strong></h4>
-						<div class="form-group">
-							<label for="" class="control-label col-sm-3">Password:</label>
-							<div class="col-sm-9">
-								<input type="password" name="password" class="form-control" required="">
-							</div>
-						</div>
-						<br><br>
+			<textarea name="comment" id="" cols="30" name="comments" rows="10" class="form-control"></textarea><br>
+			
+			<b>TextField</b> <br>
 
-						<h4><strong>Radio Buttons</strong></h4>
-						<div class="form-group">
-							<label for="">Do you like Pizza?</label>
-							<br>
-							<input type="radio" name="test3" value="yes"> Yes
-							<br>
-							<input type="radio" name="test3" value="no"> No
-							<br>
-							<input type="radio" name="test3" value="maybe"> Maybe
-							<br>
-							<input type="radio" name="test3" value="never_tried"> Never Tried
-						</div>
-						<br>
-						<br>
+			Your Name: <input type="password" name="password" class="form-control" required=""><br>
 
-						<h4><strong>CheckBox</strong></h4>
-						<div class="col-md-12">
-							<input type="checkbox" name="vehicle" value="liked"> Check this if you like our service 
-						</div>
-						
-						<br>
-						<br>
-						
-						<h4><strong>Text Area</strong></h4>
-						<div class="form-group">
-							<label for="" class="col-sm-3">Anything you would like to say?</label>
-							<div class="col-sm-9">
-								<textarea name="" id="" cols="30" name="comment_two" rows="10" class="form-control"></textarea>
-							</div>
-						</div>
+			<b>Password field</b> <br>
 
+			Password: <input type="password" name="password" class="form-control" required=""><br>
 
-						<div class="form-group">
-							<h4>I Like</h4>
-							<select name="name" id="" class="form-control" multiple>
-								<option value="mushroom">mushroom</option>
-								<option value="green peppers">green peppers</option>
-								<option value="onions">onions</option>
-								<option value="tomatoes">tomatoes</option>
-								<option value="olives">olives</option>
-							</select>
-						</div>
+			<b>Radio Buttons</b>
+			<br>
+			
+			Do you like Pizza?
+			<br>
+			<input type="radio" name="test3" value="yes"> Yes
+			<br>
+			<input type="radio" name="test3" value="no"> No
+			<br>
+			<input type="radio" name="test3" value="maybe"> Maybe
+			<br>
+			<input type="radio" name="test3" value="never_tried"> Never Tried
 
+			<br>
+			<b>Checkbox</b>
+			<br>
 
-						<div class="form-group">
-							<h4>Menu</h4>
-							<select name="color" id="" class="form-control">
-								<option value="red">red</option>
-								<option value="green">green</option>
-								<option value="blue">blue</option>
-								<option value="light-red">light red</option>
-								<option value="light-green">light green</option>
-							</select>
-						</div>
+			<input type="checkbox" name="vehicle" value="liked"> Check this if you like our service <br>
+			<b>Textarea</b>
+			<br>
+			Anything you would like to say? <br>
+			<textarea name="" id="" cols="30" name="comment_two" rows="10" class="form-control"></textarea><br>
+			
+			<b>I Like</b>
+			<br>
+			<select name="food" multiple>
+				<option value="mushroom">mushroom</option>
+				<option value="green peppers">green peppers</option>
+				<option value="onions">onions</option>
+				<option value="tomatoes">tomatoes</option>
+				<option value="olives">olives</option>
+			</select><br>
 
-						<div class="form-group">
-							<h4>Attach file</h4>
-							<input type="file" name="file" class="form-control">
-						</div>
-						
-						<div class="form-group">
-							<input type="submit" class="btn btn-primary" value="Submit">
-							<input type="reset" class="btn btn-default" value="Reset">
-						</div>
-					</form>
-				</div>	
-			</div>
-		</div>
-	</div>
-</div>	
+			<b>Menu</b>
+			<br>
+
+			<select name="color">
+				<option value="red">red</option>
+				<option value="green">green</option>
+				<option value="blue">blue</option>
+				<option value="light-red">light red</option>
+				<option value="light-green">light green</option>
+			</select><br>
+			
+			<b>Attach file</b>
+			<br>
+			<input type="file" name="upload">
+			<br>
+			<br>
+			<input type="submit">
+			<input type="reset">
+		</fieldset>
+	</form>
 </body>
 </html>
