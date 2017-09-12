@@ -6,5 +6,5 @@
 	padding:13px 35px;
 }
 textarea{
-	resize: vertical;
+	resize: vertical !important;
 }
