@@ -16,29 +16,29 @@
 		<fieldset>
 			<legend><h3>Contact form</h3></legend>
 		  
-		  Your Name*: <input type="text" class="form-control" name="username" required><br>
+		  <label>Your Name*: </label><input type="text" class="form-control" name="username" required><br>
 			
-			Email*:  <input type="email" name="email" required><br>
+			<label>Email*: </label><input type="email" name="email" required><br>
 			
 			Phone Number: <input type="text" name="phone" maxlength="10"><br>
 
-			Website: <input type="url" name="website" value="http://" required=""><br>
-			Comments*: <br>
-
+			<label>Website*: </label><input type="url" name="website" value="http://" required=""><br>
+			
+			<label>Comments*:</label><br>
 			<textarea name="comment" cols="30" name="comments" rows="10"></textarea><br>
 			
-			<b>TextField</b> <br>
+			<b>TextField</b><br>
 
-			Your Name: <input type="password" name="password" required=""><br>
+			<label>Your Name: </label><input type="password" name="password" required=""><br>
 
 			<b>Password field</b> <br>
 
-			Password: <input type="password" name="password" required=""><br>
+			<label>Password: </label><input type="password" name="password" required=""><br>
 
 			<b>Radio Buttons</b>
 			<br>
 			
-			Do you like Pizza?
+			<label>Do you like Pizza?</label>
 			<br>
 			<input type="radio" name="test3" value="yes"> Yes
 			<br>
@@ -53,9 +53,11 @@
 			<br>
 
 			<input type="checkbox" name="vehicle" value="liked"> Check this if you like our service <br>
+			
 			<b>Textarea</b>
 			<br>
-			Anything you would like to say? <br>
+
+			<label>Anything you would like to say?</label><br>
 			<textarea name="" id="" cols="30" name="comment_two" rows="10"></textarea><br>
 			
 			<b>I Like</b>
@@ -84,6 +86,7 @@
 			<input type="file" name="upload">
 			<br>
 			<br>
+			<b>Buttons</b><br>
 			<input type="submit">
 			<input type="reset">
 		</fieldset>
