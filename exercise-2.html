@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML | Exercise 2</title>
+</head>
+<style>
+  html,body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    overflow-x: hidden;
+    font-family: 'tahoma';
+  }
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .mid-3{
+    min-width: 250px;
+    float: left;
+    margin:0px;
+    background: #0ab1ff;
+    padding: 25px 10px;
+  }
+  .mid-9{
+    background: #ededed;
+    padding: 20px;
+  }
+  #small-section{
+    font-size: 18px;
+  }
+  .mid-3,.mid-9,.mid-12{
+    float: left;
+    display: inline-block;
+  }
+
+  .mid-3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: #0ab1ff;
+    padding: 25px 10px;
+  }
+
+  ul, ul> li> a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 2.4;
+  }
+
+  .header{
+    width: 100%;
+    background-color: #b2e7ff;
+    vertical-align: middle;
+    border-bottom: 2px solid #0ab1ff;
+    font-size: 24px;
+    padding: 50px 15px;
+  }
+  p.mid-text{
+    color: #802525;
+    font-size: 14px;
+  }
+
+  .mid-9 {
+    width: 73%;
+    height: auto;
+    float: left;
+    background: #ededed;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+  }
+
+  p.mid-text{
+    color: #802525;
+    font-size: 14px;
+  }
+  .small-text{
+    font-size: 12px;
+  }
+  .mid-section{
+    font-size: 24px;
+  }
+  footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #3cff78;
+    font-size: 24px;
+    padding-top: 42px;
+    min-height: 90px;
+    border-bottom: 2px #0ab1ff;
+    clear: both;
+  }
+  .foot-text{
+    vertical-align: middle;
+  }
+</style>
+<body>
+  <div class="header text-center tahoma">
+    This is the header
+  </div>
+  
+  <div class="flex-container">
+    <div class="mid-3">
+      <p id="small-section">Fixed Section of 250px width</p>
+      <ul>
+        <li><a href="">Navigation Link 1</a></li>
+        <li><a href="">Navigation Link 2</a></li>
+        <li><a href="">Navigation Link 3</a></li>
+        <li><a href="">Navigation Link 4</a></li>
+        <li><a href="">Navigation Link 5</a></li>
+      </ul>
+      <p class="small-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lobortis erat, id tempor sapien. Maecenas elit nunc, vestibulum et gravida nec, placerat in velit. Nulla pellentesque lacus sapien, et vulputate dui porttitor scelerisque. In at quam id dui scelerisque sagittis. Nam quis enim malesuada nibh tincidunt elementum. Morbi sollicitudin magna a arcu porta, non consequat massa suscipit. Vestibulum mollis pulvinar justo, eu euismod augue euismod id. Sed sit amet velit sed sem porta molestie. Phasellus vulputate lacinia dolor, ut varius orci. Curabitur vitae sapien eget erat ultrices sollicitudin a sit amet mauris. Ut consectetur, sapien non laoreet tempor, nulla libero commodo ante, eu feugiat leo lectus sed lectus. Etiam sodales, urna gravida aliquet convallis, orci massa convallis mauris, ac commodo nulla nulla ac ex. Nulla porta in sem sit amet porta. Cras cursus nec quam vitae ultricies. Sed ultricies orci ut nibh fermentum, nec egestas justo varius. Curabitur sollicitudin suscipit iaculis.
+
+      </p>
+    </div>
+    <div class="mid-9">
+      <p class="mid-section">Fixed Section of 750px width including padding and margins</p>
+      <p class="mid-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lobortis erat, id tempor sapien. Maecenas elit nunc, vestibulum et gravida nec, placerat in velit. Nulla pellentesque lacus sapien, et vulputate dui porttitor scelerisque. In at quam id dui scelerisque sagittis. Nam quis enim malesuada nibh tincidunt elementum. Morbi sollicitudin magna a arcu porta, non consequat massa suscipit. Vestibulum mollis pulvinar justo, eu euismod augue euismod id. Sed sit amet velit sed sem porta molestie. Phasellus vulputate lacinia dolor, ut varius orci. Curabitur vitae sapien eget erat ultrices sollicitudin a sit amet mauris. Ut consectetur, sapien non laoreet tempor, nulla libero commodo ante, eu feugiat leo lectus sed lectus. Etiam sodales, urna gravida aliquet convallis, orci massa convallis mauris, ac commodo nulla nulla ac ex. Nulla porta in sem sit amet porta. Cras cursus nec quam vitae ultricies. Sed ultricies orci ut nibh fermentum, nec egestas justo varius. Curabitur sollicitudin suscipit iaculis.
+        <br><br>
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.
+        <br><br>
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.
+        <br><br>
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.<br><br>
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.
+
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.<br><br>
+        Donec a iaculis massa, vel semper felis. Phasellus imperdiet sodales mauris, maximus consequat lectus blandit id. Fusce congue nisl sed tortor condimentum congue. Phasellus et dolor aliquet, interdum leo non, fringilla urna. Sed vitae sagittis lorem. Donec euismod ullamcorper nisl, sed rhoncus nulla porta eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ante commodo, porttitor est ac, feugiat augue. Donec libero est, tristique ultricies mauris vel, dictum condimentum nisi. Nam nec tincidunt eros, a feugiat dolor. Aliquam erat volutpat. Morbi vel purus vitae odio posuere hendrerit. Morbi vestibulum ex libero, eu posuere libero auctor nec. Praesent in pulvinar turpis. Morbi vitae ex quam. Proin ut vulputate elit.
+      </p>
+    </div>
+  </div>
+ 
+ <footer>
+   This is the Footer
+ </footer>
+</body>
+</html>
