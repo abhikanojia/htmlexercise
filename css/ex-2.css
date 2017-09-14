@@ -1,0 +1,98 @@
+html,body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    overflow-x: hidden;
+    font-family: 'tahoma';
+  }
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .mid-3{
+    min-width: 250px;
+    float: left;
+    margin:0px;
+    background: #0ab1ff;
+    padding: 25px 10px;
+  }
+  .mid-9{
+    background: #ededed;
+    padding: 20px;
+  }
+  #small-section{
+    font-size: 18px;
+  }
+  .mid-3,.mid-9,.mid-12{
+    float: left;
+    display: inline-block;
+  }
+
+  .mid-3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    background: #0ab1ff;
+    padding: 25px 10px;
+  }
+
+  ul, ul> li> a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 2.4;
+  }
+
+  .header{
+    width: 100%;
+    background-color: #b2e7ff;
+    vertical-align: middle;
+    border-bottom: 2px solid #0ab1ff;
+    font-size: 24px;
+    padding: 50px 15px;
+  }
+  p.mid-text{
+    color: #802525;
+    font-size: 14px;
+  }
+
+  .mid-9 {
+    width: 73%;
+    height: auto;
+    float: left;
+    background: #ededed;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+  }
+
+  p.mid-text{
+    color: #802525;
+    font-size: 14px;
+  }
+  .small-text{
+    font-size: 12px;
+  }
+  .mid-section{
+    font-size: 24px;
+  }
+  footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #3cff78;
+    font-size: 24px;
+    padding-top: 42px;
+    min-height: 90px;
+    border-bottom: 2px #0ab1ff;
+    clear: both;
+  }
+  .foot-text{
+    vertical-align: middle;
+  }
