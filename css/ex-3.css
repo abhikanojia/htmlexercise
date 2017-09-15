@@ -1,92 +1,88 @@
 html, body{
-    overflow-x: hidden;
-    margin: 0px;
-    font-family: 'tahoma';
-  }
-  div.header{
-    border-bottom: 2px solid #db2927;
-    display: block;
-    padding:0px 20px;
-  }
+  overflow-x: hidden;
+  margin: 0px;
+  font-family: 'tahoma';
+}
+div.header{
+  border-bottom: 2px solid #db2927;
+  display: block;
+  padding:0px 20px;
+}
 
-  .header-img{
-    float: left;
-  }
-  .pull-right{
-    float: right;
-  }
-  .contact-info{
-    margin-top:46px;
-  }
-  .link{
-    color: #045198;
-  }
-  span.info{
-    margin-left: 35px;
-  }
-  .form-heading{
-    color: #2c286d;
-    font-size: 18px;
-    text-align: left;
-  }
-  .form{
-    border:1px solid black;
-    border-color: #bcbcbc;
-    background-color: #ececec;
-     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-  }
-  .input{
-    width: 73%;
-  }
+.header-img{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.contact-info{
+  margin-top:46px;
+}
+.link{
+  color: #045198;
+}
+span.info{
+  margin-left: 35px;
+}
 
-  .btn-submit{
-    background-color: #dc2927;
-    border-color: #a10200;
-    width: 130px;
-    height: 32px;
-    text-align: center;
-    color: white;
-    margin-left: 117px;
-  }
-  
-  .field{
-    width: 350px;
-     border-color: #b9b9b9;
-    height: 25px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-      margin-right: 20px;
-  }
-  .form-title{
-    color:#2c286d;
-    font-size: 18px;
-    text-align: center;
-  }
-  fieldset
-  {
-    background-color: #ececec;
-    border-color: #bcbcbc;
-    margin: auto;
-    width: 600px;
-    padding: 20px 0 20px 30px;
-  }
-  form label
-  {
-    font-size: 14px;
-    float: left;
-    text-align: right;
-    width: 7em;
-  }
-  
-  textarea
-  {
-    border-color: #b9b9b9;
-    width: 360px;
-    height: 135px;
-    margin-left: 20px;
-  }
-  select{
-    margin-left: 15px;
-  }
+.input{
+  width: 73%;
+}
+
+.btn-submit{
+  background-color: #dc2927;
+  border-color: #a10200;
+  width: 130px;
+  height: 32px;
+  text-align: center;
+  color: white;
+  margin-left: 117px;
+}
+
+.mid{
+  display: block;
+  margin: 0 auto;
+}
+.field{
+  width: 350px;
+   border-color: #b9b9b9;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+    margin-right: 20px;
+}
+.form-title{
+  color:#2c286d;
+  font-size: 18px;
+  text-align: left;
+}
+form
+{
+  margin:0 auto;
+  width: 600px;
+}
+
+fieldset{
+  background-color: #ececec;
+  border-color: #bcbcbc;
+  padding: 20px 0 20px 30px;
+}
+
+form label
+{
+  font-size: 14px;
+  float: left;
+  text-align: right;
+  width: 7em;
+}
+
+textarea
+{
+  border-color: #b9b9b9;
+  width: 360px;
+  height: 135px;
+  margin-left: 20px;
+}
+select{
+  margin-left: 15px;
+}
