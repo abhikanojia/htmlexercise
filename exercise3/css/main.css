@@ -37,6 +37,10 @@ nav > li.brand> a{
   padding-left: 0px;
   padding-right: 0px;
 }
+.container-lg-pad{
+  padding-left: 120px;
+  padding-right: 120px;
+}
 .row{
   width: 100%;
   float: left;
@@ -46,4 +50,38 @@ nav > li.brand> a{
 }
 h3.head{
   text-align: center;
+  color: #403b3b;
+}
+.col-md-4{
+  width: 30%;
+  float: left;
+  padding:10px 10px;
+}
+.product-box{
+  border: 3px solid #cecbcb;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+.product-box > img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.product-details{
+  text-align: center;
+}
+.col-md-1{
+  width: 20%;
+  float: left;
+  padding:10px 10px;
+}
+.col-md-1 > img{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.container-ads{
+  padding-left: 95px;
+  width: 95%;
 }
