@@ -1,0 +1,45 @@
+html, body{
+  margin: 0;
+}
+nav{
+  padding: 15px 0px 5px 5px;
+  padding-left: 200px;
+  display: block;
+  height: 60px;
+}
+nav > li{
+  display: inline-block;
+  color: black;
+  margin-left: 20px;
+  float: left;
+  padding: 10px 10px;
+}
+nav > li > a{
+  color: black !important;
+  text-decoration: none;
+}
+nav > li.brand{
+  border-right: 1px solid grey;
+  padding: 10px 20px !important;
+}
+nav > li.brand> a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d2929;
+}
+.pull-right{
+  float: right;
+  position: absolute;
+  right: 100px;
+}
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row{
+  width: 100%;
+  float: left;
+}
+.responsive{
+  width: 100%;
+}
