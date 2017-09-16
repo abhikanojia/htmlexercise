@@ -1,5 +1,6 @@
 html, body{
   margin: 0;
+  color: #2d2929;
 }
 nav{
   padding: 15px 0px 5px 5px;
@@ -42,4 +43,7 @@ nav > li.brand> a{
 }
 .responsive{
   width: 100%;
+}
+h3.head{
+  text-align: center;
 }
