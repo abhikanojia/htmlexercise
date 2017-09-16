@@ -16,7 +16,7 @@ nav > li{
   padding: 10px 10px;
 }
 nav > li > a{
-  color: black !important;
+  color: #403b3b;
   text-decoration: none;
 }
 nav > li.brand{
