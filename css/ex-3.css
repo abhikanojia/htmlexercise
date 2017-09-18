@@ -45,11 +45,10 @@ span.info{
 }
 .field{
   width: 350px;
-   border-color: #b9b9b9;
   height: 25px;
   margin-bottom: 20px;
   margin-left: 20px;
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .form-title{
   color:#2c286d;
@@ -74,6 +73,7 @@ form label
   float: left;
   text-align: right;
   width: 7em;
+  padding-right: 20px;
 }
 
 textarea
