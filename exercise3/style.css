@@ -1,0 +1,28 @@
+.page-container{
+  width: 50%;
+  margin: 0 auto;
+}
+html, body{
+  margin: 0;
+  color: #2d2929;
+}
+nav{
+  padding: 15px 0px 5px 5px;
+  margin: 0 auto;
+  display: block;
+  height: 60px;
+}
+nav > li{
+  display: inline-block;
+  color: black;
+  margin-left: 20px;
+  padding: 10px 10px;
+}
+
+.pull-right{
+  float: right;
+}
+
+ul{
+  list-style-type: none;
+}
