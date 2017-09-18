@@ -1,22 +1,35 @@
-.page-container{
-  width: 50%;
-  margin: 0 auto;
-}
 html, body{
   margin: 0;
-  color: #2d2929;
+  color: #444343;
 }
-nav{
+.page-container{
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.nav-default{
   padding: 15px 0px 5px 5px;
   margin: 0 auto;
   display: block;
   height: 60px;
 }
-nav > li{
+.nav-default > li{
   display: inline-block;
   color: black;
   margin-left: 20px;
   padding: 10px 10px;
+}
+
+.nav-default a{
+  color: #504b4b;
+  text-decoration: none;
+}
+li.brand{
+  color: #504b4b;
+  font-weight: bolder;
+  border-right: 1px solid #d4d3d3;
+  padding-right: 40px;
 }
 
 .pull-right{
@@ -25,4 +38,51 @@ nav > li{
 
 ul{
   list-style-type: none;
+}
+
+.cart-icon{
+  vertical-align: middle;
+  margin-top: -10px;
+}
+.responsive{
+  width: 100%;
+}
+.nav-default{
+  color: #52565a;
+}
+h3.head{
+  text-align: center;
+  display: block;
+}
+.col-md-4{
+  width: 30%;
+  float: left;
+  padding:10px 10px;
+  margin-left: 8px;
+}
+.product-box{
+  border: 3px solid #cecbcb;
+  border-radius: 3px;
+}
+.product-box > img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.product-details{
+  text-align: center;
+}
+.brand-img{
+  display: block;
+  margin: 0 auto;
+}
+
+.brand-container{
+  width: 72%;
+  margin-left: 204px;
+}
+.col-md-1{
+  width: 17%;
+  float: left;
+  padding:10px 10px;
 }
